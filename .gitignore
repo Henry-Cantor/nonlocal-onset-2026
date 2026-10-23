@@ -1,0 +1,8 @@
+# large data (regenerate with step1_process.py / build_features.py)
+*.parquet
+# transient
+*.log
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/

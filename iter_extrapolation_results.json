@@ -1,0 +1,57 @@
+{
+  "law": "onset power law; dom2 = rho*(rstar) x drive(eff_drive)",
+  "note": "Paper-1 label+clean+deadband reproduced; LOMO matches run_onset.py ~0.92-0.96.",
+  "lomo": {
+    "conv_NBI": {
+      "full": 0.955,
+      "dom2": 0.952,
+      "n_machines": 3
+    },
+    "spherical": {
+      "full": 0.966,
+      "dom2": 0.97,
+      "n_machines": 4
+    },
+    "conv_0torque": {
+      "full": 0.94,
+      "dom2": 0.933,
+      "n_machines": 5
+    },
+    "pooled": {
+      "full": 0.955,
+      "dom2": 0.933
+    }
+  },
+  "iter_extrapolation": {
+    "ITER_baseline|full|all-fleet": {
+      "occ_pct": 0.0,
+      "saturated": false,
+      "p_mean": 0.0
+    },
+    "ITER_baseline|dom2|all-fleet": {
+      "occ_pct": 18.3,
+      "saturated": false,
+      "p_mean": 0.417
+    },
+    "ITER_baseline|full|CMOD+EAST": {
+      "occ_pct": 100.0,
+      "saturated": true,
+      "p_mean": 1.0
+    },
+    "ITER_baseline|dom2|CMOD+EAST": {
+      "occ_pct": 100.0,
+      "saturated": true,
+      "p_mean": 0.873
+    }
+  },
+  "iter_predicted_onset_radial_pct": {
+    "ITER_baseline": {
+      "0.0-0.40": 0.0,
+      "0.4-0.60": 0.0,
+      "0.6-0.80": 53.8,
+      "0.8-1.01": 46.2
+    }
+  },
+  "iter_source": "ITER_baseline 50000A11.CDF (R=6.2 m, B=5.3 T, Q=10 baseline) computed at commit 78563eb; CDF deleted afterward -> frozen committed values used, not empty results.",
+  "heat_connection": "onset (>4x baseline, coherent) -> excess-per-onset >=3x baseline; fleet excess-share 25-36% of e-heat; ITER law-occupancy ~18% (baseline) -> tens-of-percent heat-loss fraction"
+}

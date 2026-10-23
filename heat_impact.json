@@ -1,0 +1,74 @@
+{
+  "operating_mult": 4.0,
+  "heat_framing": {
+    "headline_suppressible_excess_pct": [
+      24.6,
+      36.1
+    ],
+    "loose_above_median_upper_bound_pct": [
+      45.2,
+      50.4
+    ],
+    "note": "HEADLINE = coherent-avalanche excess above the local gyro-Bohm baseline (excess_share_pct) = the tight, suppressible non-local heat (~25-36%). The LOOSE upper bound (nonlocal_total_pct, ~45-50%) is all heat above the local MEDIAN baseline at any amplitude and over-counts moderate above-median transport -- report the headline, cite the loose bound only as an upper limit."
+  },
+  "regimes": {
+    "conv_NBI": {
+      "onset_pct": 19.656791855336568,
+      "flux_share_pct": 30.473853363104542,
+      "excess_share_pct": 26.80862625879497,
+      "nonlocal_total_pct": 45.209730483771175,
+      "enhance": 9.548816129781928
+    },
+    "spherical": {
+      "onset_pct": 23.791380915690098,
+      "flux_share_pct": 38.67825762859563,
+      "excess_share_pct": 36.07338415545635,
+      "nonlocal_total_pct": 50.36110909133831,
+      "enhance": 18.000326176825297
+    },
+    "conv_0torque": {
+      "onset_pct": 16.08717870674205,
+      "flux_share_pct": 26.8899461457936,
+      "excess_share_pct": 24.56437995450355,
+      "nonlocal_total_pct": 48.17065106539931,
+      "enhance": 9.96088801983457
+    }
+  },
+  "sweep": {
+    "1.0": {
+      "cells_pct": 49.99985315580855,
+      "excess_captured_pct": 100.0,
+      "auc": 0.9361747802537792
+    },
+    "1.5": {
+      "cells_pct": 39.95377870292608,
+      "excess_captured_pct": 95.30954431528863,
+      "auc": 0.9405067686538081
+    },
+    "2.0": {
+      "cells_pct": 33.64592697238411,
+      "excess_captured_pct": 87.83126713260243,
+      "auc": 0.9480930686497392
+    },
+    "4.0": {
+      "cells_pct": 22.276521792141722,
+      "excess_captured_pct": 66.31864427956535,
+      "auc": 0.9688100694386149
+    },
+    "8.0": {
+      "cells_pct": 14.644152674042765,
+      "excess_captured_pct": 47.790167051301054,
+      "auc": 0.968206581774186
+    },
+    "16.0": {
+      "cells_pct": 9.631581910609109,
+      "excess_captured_pct": 34.18977668618044,
+      "auc": 0.9678953413842675
+    },
+    "32.0": {
+      "cells_pct": 6.1798891179036435,
+      "excess_captured_pct": 24.036064308234153,
+      "auc": 0.9828688842638261
+    }
+  }
+}

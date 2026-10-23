@@ -1,0 +1,355 @@
+{
+  "c0": "global",
+  "theta": 2.0,
+  "threshold_x_baseline": 4.0,
+  "horizon_ms": 10.0,
+  "regimes": [
+    {
+      "regime": "conv_NBI",
+      "machines": 4,
+      "shots": 100,
+      "onset_pct": 7.2638,
+      "loso_within": 0.9892028766128814,
+      "lomo_cross": 0.9652018342506513,
+      "lomo_machines": 3,
+      "lomo_by_machine": {
+        "D3D": 0.9723,
+        "EAST": 1.0,
+        "KSTR": 0.974,
+        "TCV": 0.9493
+      },
+      "null": 0.5006017620542951,
+      "noQ_GB": 0.9397097647200652,
+      "exponents": {
+        "accel": -0.0002693605389900971,
+        "prate_frac": 0.0037679760786337255,
+        "inv_etae": -6.997661626152339,
+        "etae_surge": 0.09011580372597439,
+        "betae": -3.642970663688599,
+        "gExB_hat": 5.929990479748955,
+        "ge": -1.0813283601972932,
+        "TeTi": -1.390930775045903,
+        "gExB": -6.188342098260073,
+        "load8": -0.06944021070990705,
+        "rstar": 1.4368887764822305,
+        "corrug": 0.15468904388985288,
+        "overdrive": -1.8715910835548344,
+        "gmc": 0.0914134550716264,
+        "prox": 0.002605248959185756,
+        "nustar": 0.5182708194084974,
+        "crit": 2.065502653394409,
+        "net_ratio": -0.009476893674421505,
+        "eff_drive": 4.373110367483622,
+        "uni_drive": 1.2632543337471334,
+        "u_peak": 1.8112995485272714
+      },
+      "c0_by_machine": {
+        "D3D": 0.08370140194892883,
+        "EAST": 1.1347497701644897,
+        "KSTR": 0.11943049728870392,
+        "TCV": 0.12043369561433792
+      }
+    },
+    {
+      "regime": "spherical",
+      "machines": 5,
+      "shots": 100,
+      "onset_pct": 11.821882843526241,
+      "loso_within": 0.9868555562111245,
+      "lomo_cross": 0.9584767066077826,
+      "lomo_machines": 4,
+      "lomo_by_machine": {
+        "MAST": 0.9631,
+        "NSTU": 0.9686,
+        "NSTX": 0.989,
+        "ST40": 0.9132
+      },
+      "null": 0.4992647142188359,
+      "noQ_GB": 0.7709651882872489,
+      "exponents": {
+        "accel": -0.10009570444912493,
+        "prate_frac": 0.05712840903970825,
+        "inv_etae": 6.97458485233343,
+        "etae_surge": 0.13754687346957578,
+        "betae": -2.3122221887082515,
+        "gExB_hat": 3.1085656544963216,
+        "ge": 0.6199982590840529,
+        "TeTi": 0.38675077599069263,
+        "gExB": -2.570288330677713,
+        "load8": -0.19219054498336754,
+        "rstar": -8.177388911423899,
+        "corrug": -0.01494406272672767,
+        "overdrive": 0.319769937874643,
+        "gmc": -0.05412451650634641,
+        "prox": 0.17686640743452886,
+        "nustar": 0.6763189098889038,
+        "crit": 0.4121499779330341,
+        "net_ratio": 0.018588791191567137,
+        "eff_drive": -3.834091461208627,
+        "uni_drive": -0.8328366253396082,
+        "u_peak": -2.402110493518669
+      },
+      "c0_by_machine": {
+        "MAST": 1.7363841533660889,
+        "NSTU": 0.394128680229187,
+        "NSTX": 0.1368112862110138,
+        "SMRT": 0.09010116010904312,
+        "ST40": 1.153773546218872
+      }
+    },
+    {
+      "regime": "conv_0torque",
+      "machines": 5,
+      "shots": 99,
+      "onset_pct": 15.50825837271942,
+      "loso_within": 0.9153654850474368,
+      "lomo_cross": 0.926401005358851,
+      "lomo_machines": 4,
+      "lomo_by_machine": {
+        "CMOD": 0.9119,
+        "D3D": 0.9384,
+        "EAST": 0.9685,
+        "KSTR": 0.972,
+        "TCV": 0.8833
+      },
+      "null": 0.5009250806923539,
+      "noQ_GB": 0.7965735945288436,
+      "exponents": {
+        "accel": 0.06488098138039249,
+        "prate_frac": 0.11741313337071033,
+        "inv_etae": -7.740022753723078,
+        "etae_surge": 0.0726948033395958,
+        "betae": -2.804929779281922,
+        "gExB_hat": 0.13121010902280011,
+        "ge": 0.4648848507079836,
+        "TeTi": -2.2135523556910357,
+        "gExB": 0.1624905443781008,
+        "load8": -0.18896955716128233,
+        "rstar": -2.9387974591417034,
+        "corrug": -0.07173913424711789,
+        "overdrive": -0.13223876593313488,
+        "gmc": 0.20749482342273795,
+        "prox": 0.04752944974035312,
+        "nustar": 1.0504308801122675,
+        "crit": 1.328999392131434,
+        "net_ratio": 0.05077181843079708,
+        "eff_drive": 9.80633765047917,
+        "uni_drive": -0.9317942968909647,
+        "u_peak": -0.714473441783165
+      },
+      "c0_by_machine": {
+        "CMOD": 0.48789656162261963,
+        "D3D": 0.1540057510137558,
+        "EAST": 0.6194151639938354,
+        "KSTR": 0.1657792180776596,
+        "TCV": 0.2749655246734619
+      }
+    }
+  ],
+  "forecast": [
+    {
+      "regime": "conv_NBI",
+      "machines": 4,
+      "shots": 100,
+      "onset_pct": 7.348366666666667,
+      "loso_within": 0.9888549095561935,
+      "lomo_cross": 0.9655971489446489,
+      "lomo_machines": 3,
+      "lomo_by_machine": {
+        "D3D": 0.9719,
+        "EAST": 1.0,
+        "KSTR": 0.9744,
+        "TCV": 0.9505
+      },
+      "null": 0.5005987534928129,
+      "noQ_GB": 0.9394010848211108
+    },
+    {
+      "regime": "spherical",
+      "machines": 5,
+      "shots": 100,
+      "onset_pct": 12.582482602787435,
+      "loso_within": 0.9806185726261683,
+      "lomo_cross": 0.9559615216483102,
+      "lomo_machines": 4,
+      "lomo_by_machine": {
+        "MAST": 0.966,
+        "NSTU": 0.9586,
+        "NSTX": 0.9823,
+        "ST40": 0.917
+      },
+      "null": 0.4991490782939421,
+      "noQ_GB": 0.7724417682663078
+    },
+    {
+      "regime": "conv_0torque",
+      "machines": 5,
+      "shots": 99,
+      "onset_pct": 15.722620318137928,
+      "loso_within": 0.9145448702411532,
+      "lomo_cross": 0.9247360038093945,
+      "lomo_machines": 4,
+      "lomo_by_machine": {
+        "CMOD": 0.9038,
+        "D3D": 0.9373,
+        "EAST": 0.9691,
+        "KSTR": 0.9741,
+        "TCV": 0.8838
+      },
+      "null": 0.5009161292221608,
+      "noQ_GB": 0.7970455789969435
+    }
+  ],
+  "forecast_from_quiet": [
+    {
+      "regime": "conv_NBI",
+      "machines": 4,
+      "shots": 100,
+      "onset_pct": 0.09119056707808458,
+      "loso_within": 0.9365665936961634,
+      "lomo_cross": 0.9448428786845041,
+      "lomo_machines": 3,
+      "lomo_by_machine": {
+        "D3D": 0.9595,
+        "KSTR": 0.9225,
+        "TCV": 0.9525
+      },
+      "null": 0.496838354252767,
+      "noQ_GB": 0.8783820770778171
+    },
+    {
+      "regime": "spherical",
+      "machines": 5,
+      "shots": 100,
+      "onset_pct": 0.8625720119556347,
+      "loso_within": 0.8128369504302921,
+      "lomo_cross": 0.830935966689375,
+      "lomo_machines": 4,
+      "lomo_by_machine": {
+        "MAST": 0.7725,
+        "NSTU": 0.7364,
+        "NSTX": 0.8676,
+        "ST40": 0.9472
+      },
+      "null": 0.5003644225213484,
+      "noQ_GB": 0.7565723608800311
+    },
+    {
+      "regime": "conv_0torque",
+      "machines": 5,
+      "shots": 98,
+      "onset_pct": 0.2537075710477437,
+      "loso_within": 0.7950476827869746,
+      "lomo_cross": 0.8590696923885693,
+      "lomo_machines": 3,
+      "lomo_by_machine": {
+        "CMOD": 0.79,
+        "D3D": 0.9093,
+        "EAST": 0.7814,
+        "TCV": 0.8779
+      },
+      "null": 0.49539201123141763,
+      "noQ_GB": 0.8127711562981833
+    }
+  ],
+  "per_machine": [
+    {
+      "regime": "conv_NBI",
+      "machine": "D3D",
+      "shots": 58,
+      "onset_pct": 6.7174214345551775,
+      "loso": 0.980159160611036
+    },
+    {
+      "regime": "conv_NBI",
+      "machine": "EAST",
+      "shots": 1,
+      "onset_pct": 88.6853448275862,
+      "loso": null
+    },
+    {
+      "regime": "conv_NBI",
+      "machine": "KSTR",
+      "shots": 18,
+      "onset_pct": 6.104007343216604,
+      "loso": 0.9966007607897753
+    },
+    {
+      "regime": "conv_NBI",
+      "machine": "TCV",
+      "shots": 23,
+      "onset_pct": 30.784771343971045,
+      "loso": 0.9908487084378327
+    },
+    {
+      "regime": "spherical",
+      "machine": "MAST",
+      "shots": 7,
+      "onset_pct": 50.91342927447617,
+      "loso": 0.9249997925413856
+    },
+    {
+      "regime": "spherical",
+      "machine": "NSTU",
+      "shots": 37,
+      "onset_pct": 15.847331828193074,
+      "loso": 0.9810802759370729
+    },
+    {
+      "regime": "spherical",
+      "machine": "NSTX",
+      "shots": 49,
+      "onset_pct": 8.241067226884468,
+      "loso": 0.9926308364851761
+    },
+    {
+      "regime": "spherical",
+      "machine": "SMRT",
+      "shots": 3,
+      "onset_pct": 0.0,
+      "loso": null
+    },
+    {
+      "regime": "spherical",
+      "machine": "ST40",
+      "shots": 4,
+      "onset_pct": 44.11729787486644,
+      "loso": 0.866091497833312
+    },
+    {
+      "regime": "conv_0torque",
+      "machine": "CMOD",
+      "shots": 4,
+      "onset_pct": 18.263256561328333,
+      "loso": 0.9294168747204835
+    },
+    {
+      "regime": "conv_0torque",
+      "machine": "D3D",
+      "shots": 49,
+      "onset_pct": 7.156167280307746,
+      "loso": 0.9508711426575366
+    },
+    {
+      "regime": "conv_0torque",
+      "machine": "EAST",
+      "shots": 2,
+      "onset_pct": 40.08308879644857,
+      "loso": null
+    },
+    {
+      "regime": "conv_0torque",
+      "machine": "KSTR",
+      "shots": 12,
+      "onset_pct": 6.61504424778761,
+      "loso": 0.9846318424309377
+    },
+    {
+      "regime": "conv_0torque",
+      "machine": "TCV",
+      "shots": 32,
+      "onset_pct": 13.980643349391864,
+      "loso": 0.8105934700538356
+    }
+  ]
+}

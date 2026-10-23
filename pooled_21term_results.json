@@ -1,0 +1,199 @@
+{
+  "n_cells": 4662019,
+  "n_machines": 10,
+  "onset_pct": 12.510245024741426,
+  "laws": {
+    "pooled_21term_l2_2": {
+      "label": "21-term, L2=2 (standard)",
+      "pooled_loso": 0.9403436644552996,
+      "lomo_mean": 0.9592999407576017,
+      "lomo_min": 0.9299733085583766,
+      "lomo_max": 0.988976382060214,
+      "lomo_saturation_mean": 0.9645135752575003,
+      "per_machine": [
+        {
+          "machine": "D3D",
+          "n": 1756040,
+          "lomo_auc": 0.9328524722278162,
+          "saturation": 0.978634313569167
+        },
+        {
+          "machine": "EAST",
+          "n": 521712,
+          "lomo_auc": 0.9571196893701319,
+          "saturation": 0.8837308706719416
+        },
+        {
+          "machine": "KSTR",
+          "n": 640180,
+          "lomo_auc": 0.9540895186881042,
+          "saturation": 0.9824096347902153
+        },
+        {
+          "machine": "TCV",
+          "n": 212535,
+          "lomo_auc": 0.9299733085583766,
+          "saturation": 0.9681181922977392
+        },
+        {
+          "machine": "MAST",
+          "n": 40159,
+          "lomo_auc": 0.9529267726006446,
+          "saturation": 0.9489778131925596
+        },
+        {
+          "machine": "NSTU",
+          "n": 518066,
+          "lomo_auc": 0.9855120682667606,
+          "saturation": 0.9787826261518803
+        },
+        {
+          "machine": "NSTX",
+          "n": 844003,
+          "lomo_auc": 0.9682510214514387,
+          "saturation": 0.9915699351779556
+        },
+        {
+          "machine": "ST40",
+          "n": 13729,
+          "lomo_auc": 0.988976382060214,
+          "saturation": 0.9739238109112098
+        },
+        {
+          "machine": "CMOD",
+          "n": 77140,
+          "lomo_auc": 0.9639982335949283,
+          "saturation": 0.9744749805548354
+        }
+      ]
+    },
+    "pooled_21term_l2_20": {
+      "label": "21-term, L2=20 (heavy reg)",
+      "pooled_loso": 0.9403436644552996,
+      "lomo_mean": 0.959035942758958,
+      "lomo_min": 0.9303242182806916,
+      "lomo_max": 0.9890428617466968,
+      "lomo_saturation_mean": 0.9636977538737995,
+      "per_machine": [
+        {
+          "machine": "D3D",
+          "n": 1756040,
+          "lomo_auc": 0.9311856622183455,
+          "saturation": 0.9783296508052208
+        },
+        {
+          "machine": "EAST",
+          "n": 521712,
+          "lomo_auc": 0.956412680652155,
+          "saturation": 0.8821169534149109
+        },
+        {
+          "machine": "KSTR",
+          "n": 640180,
+          "lomo_auc": 0.9544144781717885,
+          "saturation": 0.9828454497172671
+        },
+        {
+          "machine": "TCV",
+          "n": 212535,
+          "lomo_auc": 0.9303242182806916,
+          "saturation": 0.9668242877643682
+        },
+        {
+          "machine": "MAST",
+          "n": 40159,
+          "lomo_auc": 0.9529883470201853,
+          "saturation": 0.9483801887497199
+        },
+        {
+          "machine": "NSTU",
+          "n": 518066,
+          "lomo_auc": 0.9855420271321489,
+          "saturation": 0.9791957009338579
+        },
+        {
+          "machine": "NSTX",
+          "n": 844003,
+          "lomo_auc": 0.9675059668491516,
+          "saturation": 0.9914727791251927
+        },
+        {
+          "machine": "ST40",
+          "n": 13729,
+          "lomo_auc": 0.9890428617466968,
+          "saturation": 0.972102847986015
+        },
+        {
+          "machine": "CMOD",
+          "n": 77140,
+          "lomo_auc": 0.963907242759459,
+          "saturation": 0.9720119263676432
+        }
+      ]
+    },
+    "pooled_dom2": {
+      "label": "2-term dom2 (rho*,eff_drive)",
+      "pooled_loso": 0.7954302231504781,
+      "lomo_mean": 0.9420096359780816,
+      "lomo_min": 0.8876468744545795,
+      "lomo_max": 0.9983747051101225,
+      "lomo_saturation_mean": 0.9404531446214103,
+      "per_machine": [
+        {
+          "machine": "D3D",
+          "n": 1756040,
+          "lomo_auc": 0.9002447797373789,
+          "saturation": 0.9744760939386347
+        },
+        {
+          "machine": "EAST",
+          "n": 521712,
+          "lomo_auc": 0.9155033954965439,
+          "saturation": 0.6164071365044316
+        },
+        {
+          "machine": "KSTR",
+          "n": 640180,
+          "lomo_auc": 0.9865080077746374,
+          "saturation": 0.9838529788496985
+        },
+        {
+          "machine": "TCV",
+          "n": 212535,
+          "lomo_auc": 0.8950183478895711,
+          "saturation": 0.9998070905968429
+        },
+        {
+          "machine": "MAST",
+          "n": 40159,
+          "lomo_auc": 0.9375980927714986,
+          "saturation": 0.9999003959261934
+        },
+        {
+          "machine": "NSTU",
+          "n": 518066,
+          "lomo_auc": 0.9690762737117593,
+          "saturation": 0.9704361992487444
+        },
+        {
+          "machine": "NSTX",
+          "n": 844003,
+          "lomo_auc": 0.8876468744545795,
+          "saturation": 0.9997654036774751
+        },
+        {
+          "machine": "ST40",
+          "n": 13729,
+          "lomo_auc": 0.9983747051101225,
+          "saturation": 0.9963580741496103
+        },
+        {
+          "machine": "CMOD",
+          "n": 77140,
+          "lomo_auc": 0.9881162468566433,
+          "saturation": 0.923074928701063
+        }
+      ]
+    }
+  }
+}
