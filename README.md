@@ -1,4 +1,4 @@
-# A Universal Onset Law for Non-Local Heat Transport in Tokamaks (Paper 1)
+# A Universal Onset Law for Non-Local Heat Transport in Tokamaks
 
 A compact, first-principles, cross-machine-validated law for **when non-local
 ("avalanche") electron heat transport switches on** in a tokamak — validated across
